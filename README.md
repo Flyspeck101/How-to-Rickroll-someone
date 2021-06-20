@@ -6,6 +6,7 @@ There are multiple options, many of which have been widely used. You can:
 - use a URL shortening service to hide the URL 
 - make a QR code to a rickroll 
 - give someone a link that redirects to a rickroll. 
+
 Of course, there are other options. But the best option is a timed redirect. 
 ### What is a timed redirect? 
 A timed redirect is a redirect that happens after a specific amount of time. For example, many file sharing services use timed redirect so that users are forced to watch an ad, but cannot close the site or they will not be taken to the download. 
@@ -23,4 +24,20 @@ To use this, you need to first have a GitHub Pro account, and at least a basic u
 
 ### What if I don't have a GitHub Pro account, or don't know how HTML works? 
 If you don't know how HTML works, just learn it. There are plenty of guides, including [w3schools.com](https://www.w3schools.com). 
+
 If you don't have a GitHub Pro account, just share this link with friends: https://flyspeck101.github.io/Short-Incremental-Game 
+
+## Customisation 
+You can change the time before the redirect by changing the number in the `<meta>` tag. For example, the default number of seconds is 20: 
+
+`<meta http-equiv="refresh" content="**20**; URL=https://www.youtube.com/watch?v=oHg5SJYRHA0" />`
+
+You can change that number to whatever you want: 
+
+`<meta http-equiv="refresh" content="**30**; URL=https://www.youtube.com/watch?v=oHg5SJYRHA0" />`
+
+You can also change the redirect link, so that instead of a rickroll, you could send them to a wacky Wikipedia article instead: 
+
+`<meta http-equiv="refresh" content="20; URL=**https://en.wikipedia.org/wiki/Non-human_electoral_candidates**" />`
+
+Hope you enjoyed!
