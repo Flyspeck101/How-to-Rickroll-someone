@@ -30,14 +30,14 @@ If you don't have a GitHub Pro account, just share this link with friends: https
 ## Customisation 
 You can change the time before the redirect by changing the number in the `<meta>` tag. For example, the default number of seconds is 20: 
 
-`<meta http-equiv="refresh" content="**20**; URL=https://www.youtube.com/watch?v=oHg5SJYRHA0" />`
+`<meta http-equiv="refresh" content="20; URL=https://www.youtube.com/watch?v=oHg5SJYRHA0" />`
 
 You can change that number to whatever you want: 
 
-`<meta http-equiv="refresh" content="**30**; URL=https://www.youtube.com/watch?v=oHg5SJYRHA0" />`
+`<meta http-equiv="refresh" content="30; URL=https://www.youtube.com/watch?v=oHg5SJYRHA0" />`
 
 You can also change the redirect link, so that instead of a rickroll, you could send them to a wacky Wikipedia article instead: 
 
-`<meta http-equiv="refresh" content="20; URL=**https://en.wikipedia.org/wiki/Non-human_electoral_candidates**" />`
+`<meta http-equiv="refresh" content="20; URL=https://en.wikipedia.org/wiki/Non-human_electoral_candidates" />`
 
 Hope you enjoyed!
